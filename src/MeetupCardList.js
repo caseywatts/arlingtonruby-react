@@ -17,7 +17,7 @@ class MeetupCardList extends Component {
       return (
         <div>
           {this.state.meetupEvents.map((meetupEvent) =>
-            <MeetupCard meetupEvent={meetupEvent} />
+            <MeetupCard meetupEvent={meetupEvent} key={meetupEvent.id} />
           )}
         </div>
       );
