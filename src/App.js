@@ -11,7 +11,9 @@ class App extends Component {
   //   this.setState({meetupEvent});
   // }
   render() {
-    return <MeetupCardList />
+    return (
+      <MeetupCardList />
+    )
   }
 }
 
